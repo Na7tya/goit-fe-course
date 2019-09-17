@@ -3,38 +3,6 @@ body {
     color: #626262;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 400;
-}
-
-.main-menu {
-    text-decoration: none;
-    list-style: none;
-}
-
-.main-menu a {
-    color: #626262;
-    font-weight: 400;
-    text-transform: uppercase;
-    text-decoration: none;
-    line-height: 24px;
-}
-.main-menu a:hover {
-    color: #03a9f4;
-}
-
-.info-block {
-    list-style: none;
-}
-.subtitle {
-    font-family: "Ubuntu", sans-serif;
-    text-transform: uppercase;
-    line-height: 17px;
-    color: #c7c1b6;
-}
-
-.info-block h2 {
-    font-size: 30px;
-    line-height: 36px;
 }
 
 .visually-hidden:not(:focus):not(:active),
@@ -51,48 +19,97 @@ input[type="radio"].visually-hidden{
     clip:rect(0 0 0 0);
     overflow: hidden;
 }
+.menu nav {
+    display: inline-block;
+    margin: auto;
+}
+.main-menu {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    margin: auto;
+    padding-inline-start: 130px;
+}
 
+.menu-item {
+    text-align: center;
+    display: inline-block;
+}
 
+.menu-item-link {
+    display: block;
+    width:113px;
+    color: #626262;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 24px;
+    
+    padding: 10px;
+    text-align: center;
+    margin: 0px 30px;
+}
 
+.menu-item-link:hover {
+    color: #03a9f4;
+}
+ /* Основной контент */
+.info-block {
+    list-style: none; 
+    margin: 0;
+    padding: 0px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-
+.article {
+    display: inline-block;
+    vertical-align: top;
+    width: 420px;
+    margin: 85px 60px 0;
+    
+}
 .subtitle {
     font-family: "Ubuntu", sans-serif;
     text-transform: uppercase;
-    font-size:14px;
+    line-height: 17px;
     color: #c7c1b6;
+    width: 420px;
+    margin-left: 0px;
+    padding: 25px 0px;
 }
 
 .header {
-font-family: "Playfair Display", serif;;
-
-}
-
-.info_block{
-    display:inline-block;
-    width:420px;
+    font-size: 30px;
+    line-height: 36px;
+    width: 420px;
+    padding: 0px 0px 15px;
 }
 
 .text {
-    font-family: "Playfiair Display", serif;;
-    font-size:14px;
-    color: #626262;
+    padding: 15px 0 0 0;
+} 
+
+
+
+/* * {
+    outline: 1px solid red;
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
