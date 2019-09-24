@@ -46,12 +46,13 @@ input[type="radio"].visually-hidden{
     text-decoration: none;
     width:900px;
     text-align: center;
-    /* font-size: 0; */
+    font-size: 0;
 }
 
 .main-menu li {
     display: inline-block; 
     color: #626262;
+    font-size: 14px;
     line-height: 24px;
     text-transform: uppercase;
     text-align: center;
@@ -63,6 +64,7 @@ input[type="radio"].visually-hidden{
     text-decoration: none;
     text-transform: uppercase;
     color: #626262;
+    font-size: 14px;
     line-height: 24px;
 }
 
@@ -71,12 +73,12 @@ input[type="radio"].visually-hidden{
     color: #03a9f4;
 }
 
- /* Основной контент */
+ /* Main content */
  .info-block {
     list-style: none; 
     margin:0;
     padding: 0;
-    /* font-size: 0; */
+    font-size: 0;
 }
 
  img {
@@ -84,12 +86,28 @@ input[type="radio"].visually-hidden{
      max-width: 100%;
      height: auto;
  }
+
+ .info-block-article {
+    display: inline-block;
+    width: 420px;
+    margin-right: 60px;
+}
+
+.info-block-article:nth-child(2n) {
+    margin-right: 0px;
+}
+
+.info-block-article:nth-child(-n+2) {
+    margin-bottom: 0;
+}
+
  .subtitle {
     font-family: "Ubuntu", sans-serif;
     text-transform: uppercase;
     line-height: 17px;
     color: #c7c1b6;
     margin-bottom: 20px;
+    font-size: 14px;
 }
 
 .header {
@@ -98,31 +116,10 @@ input[type="radio"].visually-hidden{
     margin-bottom: 20px;
 }
 
-.info-block-article {
-    display: inline-block;
-    width: 420px;
-    margin-right: 60px;
+.text {
+    font-size: 14px;
+    line-height: 24px;
 }
-
-.article:nth-child(2n+2) {
-    margin-right: 0;
-}
-
-.article:nth-child(2n+1) {
-    margin-right: 0;
-}
-
-.article:nth-child(-n+2) {
-    margin-bottom: 0;
-}
-
-.article:nth-child(2n) {
-
-}
-
-
-
-
 
 button {
     display: block;
@@ -132,7 +129,15 @@ button {
     margin: 0 auto ;
    }
 
-
+button:hover {
+    text-decoration: underline;
+}
+/* button:focus {
+    background-color: #03a9f4;
+}
+button:active {
+    background-color: #03a9f4;  */
+}
 /* * {
     outline: 1px solid red;
 } */
