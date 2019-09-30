@@ -140,15 +140,16 @@ a {
   color: #ffffff;
   font-weight: 900;
   text-transform: uppercase;
-  
+
   margin: 0;
   float: left;
+  padding: 4px;
 }
 
 .price {
   font-weight: 900;
   width:55px;
-  height:41px;
+  height:40px;
   background-color: #8c8c8c;
   
   font-size: 18px;
